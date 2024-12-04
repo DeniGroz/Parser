@@ -1,0 +1,11 @@
+func main() {
+    integer i;
+    i equal 0;
+    while i isless 10 {
+        if i isgreater/isequal 4 {
+            break;
+        }
+        print(i);
+        i equal i plus 1;
+    }
+}

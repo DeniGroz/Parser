@@ -1,0 +1,7 @@
+all:
+	bison -t -v -d print_parser.y
+	flex lexer.lex
+	g++ -o parser lex.yy.c print_parser.tab.c -lfl
+
+clean:
+	-rm -rf *.yy.c *.tab.c *.tab.h *.output parser 

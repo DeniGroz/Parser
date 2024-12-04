@@ -1,0 +1,13 @@
+func main() {
+    integer i;
+    integer j;
+    i equal 0;
+    while i isless 2 {
+        j equal 0;
+        while j isless 3 {
+            print(j);
+            j equal j plus 1;
+        }
+        i equal i plus 1;
+    }
+}

@@ -1,0 +1,30 @@
+func main() {
+    integer a;
+    integer b;
+    integer c;
+
+
+    a equal 100;
+    b equal 50;
+    if a isless b {
+        c equal 0;
+    } else {
+        c equal 1;
+    }
+
+    # Should print out '1'.
+    print(c);
+
+
+
+    a equal 100;
+    b equal 50;
+    if a isgreater/isequal b {
+        c equal 0;
+    } else {
+        c equal 1;
+    }
+
+    # Should print out '0'
+    print(c);
+}

@@ -1,0 +1,16 @@
+func main() {
+    integer [4] array;
+
+    # Should print out '5'
+    array[0] equal 5;
+    print(array[0]);
+
+    # Should print out '10'
+    array[1] equal array[0] plus array[0];
+    print(array[1]);
+
+    # Should print out '14'
+    array[2] equal array[1] plus 2 times 2;
+    print(array[2]);
+
+}

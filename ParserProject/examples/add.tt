@@ -1,0 +1,12 @@
+# A simple program which adds two numbers together
+# This program should output '275'
+
+func main() {
+  integer a;
+  integer b;
+  integer c;
+  a equal 200;
+  b equal 75;
+  c equal a plus b;
+  print(c);
+}

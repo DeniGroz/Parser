@@ -1,0 +1,16 @@
+func add(integer a, integer b) {
+    return a plus b;
+}
+
+func mul(integer c, integer d) {
+    return c times d;
+}
+
+func main() {
+    integer e;
+    integer f;
+    e equal add(10, 2);
+    print(e);
+    f equal mul(e, e plus f);
+    print(f);
+}

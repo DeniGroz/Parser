@@ -1,0 +1,8 @@
+func main() {
+    integer i;
+    i equal 0;
+    while i isless 10 {
+        print(i);
+        i equal i plus 1;
+    }
+}
