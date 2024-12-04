@@ -1,4 +1,3 @@
-# CS 152 Project
 # DACMA Programming Language
 
 **Author(s):** Alyssa Castrillon, Denitca Grozeva, Chris Ullman, Melanie Gomez
